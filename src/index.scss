@@ -1,4 +1,67 @@
 // import styles
-// ---------------------------------------------------------------------------------------
-@import "~bootstrap/scss/bootstrap.scss";
-@import "~font-awesome/scss/font-awesome.scss";
+// --------------------------------------------------
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~font-awesome/scss/font-awesome.scss';
+
+// miscellaneous
+// --------------------------------------------------
+a {
+	cursor: pointer;
+}
+
+input[type='checkbox'] {
+	width: 18px;
+	height: 18px;
+}
+
+.error-message {
+	color: red;
+	font-size: 10px;
+	padding-left: 2px;
+}
+
+.step-title {
+	font-size: 20px;
+}
+
+.step-body {
+	height: 450px;
+	padding-top: 30px;
+}
+
+// breadcrumb
+// --------------------------------------------------
+.breadcrumb li a {
+	font-size: 18px;
+}
+
+.breadcrumb li a {
+	padding: 0 10px 0 10px;
+}
+
+.breadcrumb li a.active {
+	background-color: white;
+	border-radius: 20px;
+}
+
+// card
+// --------------------------------------------------
+.my-card {
+	box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
+	transition: 0.3s;
+}
+
+.my-card .my-card-body {
+	padding: 16px;
+	margin-bottom: 16px;
+}
+
+.my-card .my-card-header {
+	padding: 0.5rem 1rem;
+	font-size: 1.75rem;
+	background-color: #31708f;
+	color: white;
+	// margin-bottom: 10px;
+}
+
+// --------------------------------------------------
